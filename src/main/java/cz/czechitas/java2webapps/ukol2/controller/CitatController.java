@@ -39,7 +39,7 @@ public class CitatController {
             "https://source.unsplash.com/TIvFLeqZ4ec/1600x900");
 
 
-    @GetMapping("/citaty")
+    @GetMapping("/")
     public ModelAndView zobrazeniCitatu() {
         int nahodneCislo = random.nextInt(7);
         ModelAndView result = new ModelAndView("citaty");
